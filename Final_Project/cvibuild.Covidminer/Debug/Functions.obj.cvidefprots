@@ -1,0 +1,45 @@
+[LoadSources]
+Class="Function"
+Prototype="void LoadSources(int *maskspic, int *injectionpic, int *covid_19pic, int *alcojelpic, int *yoram_lasspic, int *packscoronapic, int *boompic, int *background);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:13:1"
+
+[InitGame]
+Class="Function"
+Prototype="void InitGame(struct AllVaribles *allvar);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:31:1"
+
+[StateMachine]
+Class="Function"
+Prototype="void StateMachine(struct AllVaribles *allvar);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:78:1"
+
+[draw]
+Class="Function"
+Prototype="void draw(struct AllVaribles *allvar, int maskspic, int injectionpic, int covid_19pic, int alcojelpic, int yoram_lasspic, int packscoronapic, int boompic, int background);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:270:1"
+
+[GetIndextoInsert]
+Class="Function"
+Prototype="int GetIndextoInsert(int score, char *name, struct USER use[]);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:333:1"
+
+[InsertNewScore]
+Class="Function"
+Prototype="void InsertNewScore(int index, struct USER use[], int score, char *name);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:348:1"
+
+[PrinttoFile]
+Class="Function"
+Prototype="void PrinttoFile(void *fp, struct USER use[]);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:375:1"
+
+[PrinttoTable]
+Class="Function"
+Prototype="void PrinttoTable(struct USER use[], int scorepannel);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:391:1"
+
+[MoveCovidObject]
+Class="Function"
+Prototype="void MoveCovidObject(struct AllVaribles *allvar);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Functions.c:409:1"
+

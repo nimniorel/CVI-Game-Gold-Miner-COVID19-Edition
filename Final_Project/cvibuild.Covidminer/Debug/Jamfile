@@ -1,0 +1,45 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2019\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2019\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Covidminer.c" = "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project" ;
+LOCATE on "Covidminer.h" = "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project" ;
+LOCATE on "dll.h" = "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project" ;
+Object "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj" : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\Covidminer.c" ;
+FILENUM on "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj" = 1 ;
+DEFPROTS on "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj" = "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj" = "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj.out" ;
+PrjObjects += "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.obj" ;
+Object "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\resources.res" : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\resources.in.rc" ;
+Depends "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\resources.res" : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\manifest.xml" ;
+MainFromObjects "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.exe" : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\link_options.txt" ;
+Depends "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.exe" : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\resources.res" ;
+Depends all : "c:\\Users\\User\\Documents\\National Instruments\\CVI\\Final_Project\\cvibuild.Covidminer\\Debug\\Covidminer.exe" ;

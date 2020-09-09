@@ -1,0 +1,115 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:30:1"
+
+[ExitCallback]
+Class="Function"
+Prototype="int ExitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:78:1"
+
+[Menubar_file]
+Class="Function"
+Prototype="void Menubar_file(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:97:1"
+
+[Menubar_help]
+Class="Function"
+Prototype="void Menubar_help(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:102:1"
+
+[Menubar_about]
+Class="Function"
+Prototype="void Menubar_about(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:113:1"
+
+[Menubar_Exit]
+Class="Function"
+Prototype="void Menubar_Exit(int menuBar, int menuItem, void *callbackData, int panel);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:119:1"
+
+[help_callback]
+Class="Function"
+Prototype="int help_callback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:125:1"
+
+[scoretablecallback]
+Class="Function"
+Prototype="int scoretablecallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:138:1"
+
+[gamepannelcallback]
+Class="Function"
+Prototype="int gamepannelcallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:151:1"
+
+[Aboutcallback]
+Class="Function"
+Prototype="int Aboutcallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:166:1"
+
+[nextlevelCallback]
+Class="Function"
+Prototype="int nextlevelCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:178:1"
+
+[WelcomePagecallback]
+Class="Function"
+Prototype="int WelcomePagecallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:201:1"
+
+[scorecallback]
+Class="Function"
+Prototype="int scorecallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:215:1"
+
+[STARTCALLBACK]
+Class="Function"
+Prototype="int STARTCALLBACK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:233:1"
+
+[timeofgamecallback]
+Class="Function"
+Prototype="int timeofgamecallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:265:1"
+
+[PressButtonCallback]
+Class="Function"
+Prototype="int PressButtonCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:277:1"
+
+[MultThread]
+Class="Function"
+Prototype="int MultThread(void *myData);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:289:1"
+
+[morelivescallback]
+Class="Function"
+Prototype="int morelivescallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:332:1"
+
+[lessbeercallback]
+Class="Function"
+Prototype="int lessbeercallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:358:1"
+
+[morevaccinecallback]
+Class="Function"
+Prototype="int morevaccinecallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:379:1"
+
+[morealcojelcallback]
+Class="Function"
+Prototype="int morealcojelcallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:405:1"
+
+[storecallback]
+Class="Function"
+Prototype="int storecallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:429:1"
+
+[backtomenucallback]
+Class="Function"
+Prototype="int backtomenucallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c:444:1"
+

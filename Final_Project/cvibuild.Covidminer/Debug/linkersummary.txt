@@ -1,0 +1,12 @@
+Covidminer.obj
+cvi.lib
+cvistart.lib
+dll.lib
+wmp.obj
+cviauto.lib
+kernel32.lib
+user32.lib
+uuid.lib
+EXE Symbol Module
+Exports Module
+Resource Module

@@ -1,0 +1,1 @@
+-force-include-file "Covidminer.c";"c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.c" -force-include-file "Covidminer.h";"c:\Users\User\Documents\National Instruments\CVI\Final_Project\Covidminer.h" -force-include-file "dll.h";"c:\Users\User\Documents\National Instruments\CVI\Final_Project\dll.h" 
